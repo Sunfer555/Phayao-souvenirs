@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="font">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าตะกร้า</title>
+    <link rel="stylesheet" href="supbasket.css">
+</head>
+<div class="unchecked">
+    <p><span class="glyphicon glyphicon-unchecked"></span></p>
+</div>
+<div id="vue_pro">
+    <div class="textn">
+        <h1><b>{{Txt}}</b></h1>
+    </div>
+
+    <div class="card1">
+    </div>
+
+    <div class="imgf">
+        <img src="กระเป๋าผักตบ.jpg" alt="กระเป๋าผักตบ" width="350" height="200">
+    </div>
+
+    <div class="txt1">
+        <p style="font-size:24px;"><b>กระเป๋าผักตบชวาลายตัวหนอน<b>
+                    <p>
+                    <p style="font-size:18px;">99$
+                    <p>
+    </div>
+    <div class="inde">
+        <div class="botton04">
+            <button class="button button4"><span class="glyphicon glyphicon-plus"></span></button>
+        </div>
+        <div class="center01">
+            <p style="font-size:35px;">1
+            <p>
+        </div>
+        <div class="botton05">
+            <button class="button button5"><span class="glyphicon glyphicon-minus"></span></button>
+        </div>
+    </div>
+    <div class="bin">
+        <button class="button button6"><span class="glyphicon glyphicon-trash"></span></button>
+    </div>
+    <div class="foot">
+        <div class="a">
+
+            <p>สินค้าทั้งหมด(1)</p>
+
+        </div>
+        <div class="b">
+            <button class="button button6">
+                <p>เลือกทั้งหมด</p>
+            </button>
+
+        </div>
+        <div class="c">
+            <button class="button button7">
+                <p>ลบ</p>
+            </button>
+        </div>
+        <div class="d">
+            <p>รวม(0สินค้า):</p>
+        </div>
+        <div class="e">
+            <p style="font-size:50px;">0$</p>
+        </div>
+    </div>
+    <div class="order">
+        <button class="button button8"><b>สั่งซื้อสินค้า</b></button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script>
+        new Vue({
+            el: '#vue_pro',
+            data: () => {
+                return ({
+                    Txt: "กระเป๋าผักตบ"
+                })
+            },
+            method: {
+
+            },
+            async created() {
+
+            }
+
+        });
+    </script>
+
+    <body>
+
+    </body>
+
+</html>

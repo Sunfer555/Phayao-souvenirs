@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หมวดหมู่เสื้อ</title>
+    <div class="font">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@100&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </div>
+    <style>
+
+    </style>
+</head>
+<link rel="stylesheet" href="supshirt.css">
+
+<body>
+    <div id="vue_pro">
+        <div class="texth">
+            <h1><b>{{Txt}}</b></h1>
+        </div>
+        <div class="classproduct">
+            <div class="card" v-for="img1 in 12" key="img1">
+                <div class="img1">
+                    <img src="เสื้อถักโคเชต์.jpg" alt="เสื้อถักโคเชต์" width="350" height="255">
+                </div>
+                <div class="text1">
+                    <p style="font-size:24px;"><b>เสื้อถักโคเชต์<b>
+                                <p>
+                                <p style="font-size:18px;">99$
+                                <p>
+                </div>
+            </div>
+        </div>
+        <div class="botton01">
+            <button class="button button2"><span class="glyphicon glyphicon-menu-left"></span></button>
+        </div>
+        <div class="footer">
+            <p style="font-size:35px;">1
+            <p>
+        </div>
+        <div class="botton02">
+            <button class="button button3"><span class="glyphicon glyphicon-menu-right"></span></button>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+        <script>
+            new Vue({
+                el: '#vue_pro',
+                data: () => {
+                    return ({
+                        Txt: "เสื้อ"
+                    })
+                },
+                method: {
+
+                },
+                async created() {
+
+                }
+
+            });
+        </script>
+</body>
+
+</html>

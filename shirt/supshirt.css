@@ -1,0 +1,58 @@
+.button {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Sarabun', sans-serif;
+}
+.button2 {
+    background-color: #000000;
+    position: relative;
+    left: 670px;
+    top: 50px;
+}
+.button3 {
+    background-color: #000000;
+    position: relative;
+    left: 810px;
+    bottom: 55px
+}
+.footer {
+    position: relative;
+    left: 750px;
+}
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+.texth {
+    position: relative;
+    left: 150px;
+}
+.img1 {
+    position: relative;
+    width: 100%;
+    height: 255px;
+}
+.text1 {
+    position: relative;
+    padding: 10px;
+    bottom: 10px;
+}
+.classproduct {
+    display:flex;
+    flex-wrap: wrap;
+}
+.card {
+    padding: 5px;
+    margin: 69px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.card:hover {
+    background-color: antiquewhite;
+}

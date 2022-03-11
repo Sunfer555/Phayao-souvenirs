@@ -1,0 +1,33 @@
+.button {
+    border: none;
+    color: white;
+    padding: 10px 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.button1 {
+    background-color: #5EA4BF;
+}
+
+/* Blue */
+
+.box {
+    position: relative;
+    left: 150px;
+}
+
+.text {
+    position: relative;
+    left: 700px;
+    bottom: 530px;
+}
+
+body {
+    font-family: 'Sarabun', sans-serif;
+}

@@ -1,0 +1,123 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+.unchecked {
+    position: relative;
+    left: 150px;
+    top: 240px;
+}
+.textn {
+    position: relative;
+    left: 700px;
+    top: 130px;
+}
+.card1 {
+    padding: 5px;
+    margin: 69px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    height: 210px;
+    
+}
+.txt1 {
+    position: relative;
+    left: 700px;
+    bottom: 380px;
+}
+.imgf {
+    position: relative;
+    left: 270px;
+    bottom: 275px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Sarabun', sans-serif;
+}
+.button4 {
+    background-color: #5EA4BF;
+    position: relative;
+    left: 670px;
+    top: 50px;
+}
+.button5 {
+    background-color: #5EA4BF;
+    position: relative;
+    left: 810px;
+    bottom: 55px
+}
+.button6 {
+    background-color: #ffffff;
+    color: #000000;
+    position: relative;
+    bottom: 15px
+}
+.button7 {
+    background-color: #ffffff;
+    color: #000000;
+    position: relative;
+    left: 20px;
+    bottom: 38px
+}
+.button8 {
+    background-color: #5EA4BF;
+    position: relative;
+    padding: 20px;
+    left: 810px;
+    bottom: 70px
+}
+.center01 {
+    position: relative;
+    left: 750px;
+}
+.inde {
+    position: relative;
+    left: 400px;
+    bottom: 525px;
+}
+.bin {
+    position: relative;
+    left: 1400px;
+    bottom: 606px;
+}
+.order {
+    position: relative;
+    left: 500px;
+    bottom: 500px;
+}
+.foot {
+    position: relative;
+    left: 150px;
+    bottom: 300px;
+}
+.a {
+    position: relative;
+    top: 20px;
+}
+.b {
+    position: relative;
+    left: 150px;
+    bottom: 7px;
+}
+.c {
+    position: relative;
+    left: 280px;
+    bottom: 37px;
+}
+.d {
+    position: relative;
+    left: 1000px;
+    bottom: 120px;
+}
+.e {
+    position: relative;
+    left: 1090px;
+    bottom: 190px;
+}
